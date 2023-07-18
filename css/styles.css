@@ -127,6 +127,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+/*Checked*/
 .contacts-menu .contact {
   color: var(--slatecolor);
 }
