@@ -49,6 +49,13 @@ img {
 }
 
 /*Checked*/
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Checked*/
 .link {
   text-decoration: none;
   color: inherit;
@@ -69,7 +76,7 @@ img {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.71;
   font-weight: 800;
 }
 
@@ -134,12 +141,6 @@ img {
   color: var(--slatecolor);
   font-weight: 400;
 }
-/*Checked*/
-.list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
 
 /*Checked*/
 .menu,
@@ -165,8 +166,8 @@ img {
 .button.filter.current {
   background: var(--oceancolor);
   color: var(--cloud);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba (0, 0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*Checked*/
@@ -205,9 +206,10 @@ img {
 
 /*Checked*/
 .team .item {
+  padding-bottom: 30px;
   background-color: white;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc(100 / 4 - 30px);
+  flex-basis: calc(98% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -220,6 +222,8 @@ img {
   text-align: center;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /*Checked*/
@@ -228,6 +232,8 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /*Checked*/
@@ -235,6 +241,7 @@ img {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 /*Checked*/
@@ -286,7 +293,7 @@ img {
 /*Checked*/
 .filters {
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -372,7 +379,7 @@ img {
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.71;
 }
 
 /*Checked*/
@@ -381,7 +388,7 @@ img {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.71;
 }
 
 /*Checked*/
