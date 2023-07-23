@@ -1,6 +1,6 @@
 :root {
   --iriscolor: #4d5ae5;
-  --navyblue: #2e2f42;
+  --grey: #2e2f42;
   --navybluecolor: #2e2f42;
   --oceancolor: #404bbf;
   --whitecolor: white;
@@ -97,6 +97,46 @@ img {
   margin: 0 auto;
 }
 
+.antenna-1 {
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-left: 100px;
+}
+
+.clock {
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-left: 100px;
+}
+
+.diagram-1 {
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-left: 100px;
+}
+
+.astronaut-1 {
+  border-radius: 4px;
+  background: var(--cloud, #f4f4fd);
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-left: 100px;
+}
+
 /*Checked*/
 .logo {
   color: var(--iriscolor);
@@ -104,7 +144,7 @@ img {
 
 /*Checked*/
 .studio {
-  color: var(--navyblue);
+  color: var(--grey);
 }
 
 /*Checked*/
@@ -126,7 +166,7 @@ img {
 /*Checked*/
 .nav-menu .page,
 .contacts-menu .contact {
-  color: var(--navyblue, #2e2f42);
+  color: var(--grey, #2e2f42);
   text-decoration: none;
   font-weight: 500;
   line-height: 1.15;
@@ -182,8 +222,10 @@ img {
 }
 
 /*Checked*/
-.hero.bg-hero {
-  background: var(--navyblue);
+.bg-hero {
+  background: url(../images/hero-bg.jpg), var(--grey, rgba(46, 47, 66, 0.7));
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 /*Checked*/
@@ -367,7 +409,7 @@ img {
 
 /*Checked*/
 .benefits .title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--grey, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -385,7 +427,7 @@ img {
 /*Checked*/
 .section-title {
   margin-bottom: 50px;
-  color: var(--navyblue, #2e2f42);
+  color: var(--grey, #2e2f42);
   text-align: center;
   font-size: 36px;
   line-height: 1.71;
@@ -398,7 +440,7 @@ img {
 
 /*Checked*/
 .page-footer.bg-footer {
-  background: var(--navyblue);
+  background: var(--grey);
 }
 
 /*Checked*/
